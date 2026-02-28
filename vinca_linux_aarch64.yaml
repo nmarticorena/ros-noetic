@@ -158,6 +158,8 @@ packages_select_by_deps:
   - rospy-message-converter
   - turtlebot3
   - turtlebot3_fake
+  - librealsense2
+  - realsense2_camera
   - pid
   - husky-simulator
   - husky-desktop
