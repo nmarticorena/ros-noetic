@@ -8,7 +8,7 @@ conda_index:
   - packages-ignore.yaml
 
 # Reminder for next full rebuild, the next build number should be 24
-build_number: 12
+build_number: 13
 
 packages_skip_by_deps:
   # - diagnostic_updater
@@ -171,6 +171,8 @@ packages_select_by_deps:
   - velodyne-pcl 
 
   - genmypy
+  - ddynamic-reconfigure
+  - ddynamic-reconfigure-python
 
   ## PREVIOUSLY SUPPORTED PACKAGES, NOW NOT PACKAGED ANYMORE UNTIL REQUESTED
   # # after rebuild
